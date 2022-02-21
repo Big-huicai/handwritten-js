@@ -1,5 +1,3 @@
-const { on } = require("events")
-
 // 首先我们创建了三个常量用于表示状态，对于经常使用的一些值都应该通过常量来管理，便于开发及后期维护
 const PENDING = 'pending'
 const RESOLVED = 'resolved'
